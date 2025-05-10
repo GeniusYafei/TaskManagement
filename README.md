@@ -1,3 +1,10 @@
 # Task Management system
 
-* This is a task management system, you can freely to setup task and set a timer
+* A simple task management application that helps users track and organize their tasks and to-do items and increase their productivity.
+
+welcomePage:
+![alt text](Welcomepage.jpg)
+
+HomePage:
+![alt text](Homepage.jpg)
+
