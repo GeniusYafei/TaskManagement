@@ -1,0 +1,197 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+h1, h2 {
+    font-family: 'Gill Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color:rgb(247, 21, 25);
+}
+
+#homepage {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul, li {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+li {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.completed {
+    padding: 8px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1e69de;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.complete {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1e69de;
+    color: white;
+    cursor: pointer;
+}
+
+.Today {
+    float: right;
+    margin-top: 25px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+.Deadline_passed {
+    float: right;
+    margin-top: 25px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+}
+.days_3remaining{
+    float: right;
+    margin-top: 25px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+.days_7remaining {
+    float: right;
+    margin-top: 25px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: rgb(255, 80, 0);
+    color: white;
+}
+.days_15remaining{
+    float: right;
+    margin-top: 25px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: rgb(255, 150, 0);
+    color: white;
+}
+.days_30remaining{
+    float: right;
+    margin-top: 25px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: rgb(255, 210, 0);
+    color: white;
+}
+.days_remaining {
+    float: right;
+    margin-top: 25px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: rgb(148, 148, 148);
+    color: white;
+}
+.remaining_check {
+    float: right;
+    margin-top: 25px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: rgb(8, 230, 0);
+    color: white;
+}
+
+.delete {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1e69de;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1)
+}
+
+.delete_list{
+    background-color: #cccccc;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1e69de;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1658b3;
+}
+.complete:hover {
+    background-color: #1658b3;
+}
+
+.completed:hover {
+    background-color: #d9d9d9;
+}
+
+.delete:hover {
+    background-color: #1658b3;
+}
+
+.delete_list:hover {
+    background-color: rgb(255, 23, 23);
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="date"] {
+    width: 15%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
