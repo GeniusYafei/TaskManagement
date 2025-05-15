@@ -3,7 +3,7 @@ first_stage.py
 
 Author: [Yafei Wang z5314432]
 
-Date: [10/11/202]
+Date: [10/11/2023]
 
 This file contains the code used for the first stage implementation of your
 proposal. You should modify it so that it contains all the code required for
@@ -18,8 +18,8 @@ from datetime import datetime
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'ad6fed241db347651260f46a745d5d96'
 
-USER_LISTS_FILE = "/Users/yafei/Documents/COMP1010/Proposal_Yafei_Wang_z5314432/static/user_lists.json"
-USER_TASKLIST_FILE = "/Users/yafei/Documents/COMP1010/Proposal_Yafei_Wang_z5314432/static/user_tasklist.json"
+USER_LISTS_FILE = './user_lists.json'
+USER_TASKLIST_FILE = './user_tasklist.json'
 
 
 def write_json_file(filename, info_to_save):
